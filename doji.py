@@ -31,7 +31,8 @@ when_green = when + 1
 
 def stock_data():
     ind_time = datetime.now(timezone("Asia/Kolkata"))
-    st.write('we are watching the green candle of following day and doji previous day')
+    st.write('we are watching the green candle of following day and doji previous day market days only')
+    st.write('Please use after 9.30 AM so you can get a right result for Green candles')
     st.write(ind_time)
     
     start = ind_time-dt.timedelta(200)
