@@ -1,7 +1,7 @@
 numpy==1.19.5
 pandas==1.2.5
 pandas-ta @ git+https://github.com/twopirllc/pandas-ta@720bbcf0196d363d621beeced8fba711990d075d
-yfinance
+yfinance==0.1.70
 pytz==2021.1
 requests==2.25.1
 stqdm==0.0.4
