@@ -3,6 +3,6 @@ numpy==1.19.5
 pandas==1.2.5
 pandas-ta
 pytz==2021.1
-requests==2.25.1
+requests
 stqdm==0.0.4
 streamlit==1.8.0
